@@ -105,8 +105,8 @@ fn main() {
         .expect("Failed to read line");
 
     match choice.trim() {
-        "1" => run_tests("C:\\Users\\yosif\\projects\\rust\\calculate_distance\\calculate_distance\\tests\\sample.txt"),
-        "2" => run_tests("C:\\Users\\yosif\\projects\\rust\\calculate_distance\\calculate_distance\\tests\\complete.txt"),
+        "1" => run_tests("F:\\my_practice_projects\\Rust\\calculate-distance\\tests\\Sample.txt"),
+        "2" => run_tests("F:\\my_practice_projects\\Rust\\calculate-distance\\tests\\complete.txt"),
         _ => println!("Invalid choice!"),
     }
 }
